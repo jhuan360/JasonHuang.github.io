@@ -1,0 +1,134 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #faf8ef;
+}
+
+hr{
+    width: 500px;
+}
+
+#board{
+    width: 480px;
+    height: 480px;
+
+    background-color: #cdc1b4;
+    border: 6px solid #bbada0;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 108px;
+    height: 108px;
+    border: 6px solid #bbada0;
+
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x2{
+    background-color: #eee4da;
+    color: #776e65;
+}
+
+.x4{
+    background-color: #eee1c9;
+    color: #776e65;
+}
+
+.x8{
+    background-color: #f3b27a;
+    color: #f9f6f2;
+}
+
+.x16{
+    background-color: #f69664;
+    color: #f9f6f2;
+}
+
+.x32{
+    background-color: #f77c5f;
+    color: #f9f6f2;
+}
+
+.x64{
+    background-color: #f75f3b;
+    color: #f9f6f2;
+}
+
+.x128{
+    background-color: #edd073;
+    color: #f9f6f2;
+}
+
+.x256{
+    background-color: #edcc62;
+    color: #f9f6f2;
+}
+
+.x512{
+    background-color: #edc950;
+    color: #f9f6f2;
+}
+
+.x1024{
+    background-color: #edc53f;
+    color: #f9f6f2;
+}
+
+.x2048{
+    background-color: #edc22f;
+    color: #f9f6f2;
+}
+
+.x\>2048{
+    background-color: #3c3a32;
+    color: #f9f6f2;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 248, 239, 0.3);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.gameOver-button{
+    height: 50px;
+    width: 120px;
+    background-color: #8f7a66;
+    color: #f7f4f0;
+    border-radius: 5px;
+    border: transparent;
+    font-size: large;
+    font-weight: bold;
+}
+
+.gameOver-button:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.gameOver-text{
+    color: #776e65;
+    font-size: 70px;
+    font-weight: bold;
+}
